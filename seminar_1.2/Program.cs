@@ -45,7 +45,7 @@ if (numberDay==7)
 
 }
 
-else 
+if (numberDay>7 || numberDay<1)
 {
     Console.WriteLine ("Ошибка");
 
